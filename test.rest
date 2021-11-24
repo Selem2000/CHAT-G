@@ -1,0 +1,8 @@
+GET   http://localhost:8000/api/post/
+Content-Type: application/json
+
+{
+    "firstName": "Mouhamed",
+      "lastName": "menssi",
+      "FriendList": ["61942172ee68bb714bde2cce"]
+}

@@ -1,0 +1,37 @@
+.search-page {
+  margin: 80px 0px 0px 270px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.search-bar {
+  width: 65%;
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 17px;
+  box-shadow: 0 0 15px;
+  margin-bottom: 50px;
+}
+.search-bar:focus {
+  outline: none;
+}
+.card-user {
+  width: 419px;
+  background: #444;
+  padding: 19px 10px;
+  margin: 10px 0px;
+  box-shadow: 0 0 15px;
+}
+.user-head {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  color: #fff;
+  margin-left: 6px;
+}
+.friend-nbr {
+  font-size: 27px;
+  text-align: center;
+  color: #888;
+}

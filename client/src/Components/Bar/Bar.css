@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+.Bar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+  box-shadow: 0px 0px 15px #000;
+  padding: 4px 0;
+  position: fixed;
+}
+.ball {
+  width: 50px;
+  height: 50px;
+  background: #015c92;
+  border-radius: 50%;
+  animation-delay: 0.5ms;
+  animation: ball 2s ease infinite;
+  margin-right: 10px;
+}
+.Logo {
+  margin-left: 10px;
+  color: #fff;
+  font-family: "Architects Daughter", cursive;
+  margin: 0;
+}
+@keyframes ball {
+  0% {
+    background: #015c92;
+  }
+
+  50% {
+    background: #bce6ff;
+  }
+
+  100% {
+    background: #015c92;
+  }
+}

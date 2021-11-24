@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  /* position: fixed; */
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  background: #1c1b4d;
+}
+.navbar a {
+  text-decoration: none;
+  color: #b80e65;
+  font-size: 32px;
+  font-weight: 900;
+  padding: 1% 0;
+  text-shadow: 0 0 15px #b80e65, 0 0 30px #b80e65;
+}
+
+.navigation {
+  width: 30%;
+}
+.auth {
+  margin: 0;
+  display: flex;
+  width: 100%;
+  position: relative;
+  justify-content: space-around;
+}
+.auth a {
+  text-decoration: none;
+  text-shadow: 0 0 15px #1791b1, 0 0 30px #1791b1;
+  transition: 0.5s;
+}
+.auth li:hover {
+  text-shadow: 0 0 15px #1791b1, 0 0 30px #1791b1, 0 0 45px #1791b1;
+  color: #1791b1;
+}
+.auth li {
+  list-style: none;
+  color: #fff;
+  font-size: 20px;
+}

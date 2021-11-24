@@ -1,0 +1,45 @@
+.profile {
+  margin: 80px 0px 0px 270px;
+  display: flex;
+  align-items: center;
+}
+.left-side {
+  margin-left: 57px;
+  margin-top: 28px;
+  padding: 55px 64px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  word-wrap: break-word;
+  box-shadow: 0 0 15px #000;
+}
+.photo-profile {
+  border: 15px solid #ddd;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #000;
+}
+.name {
+  margin: 16px 0px;
+}
+.bio {
+  max-height: 72px;
+  max-width: 200px;
+  color: #aaa;
+}
+.right-side {
+  margin-left: 125px;
+  color: #aaa;
+  padding: 44px;
+  box-shadow: 0 0 15px #111;
+}
+.sexe {
+  font-size: 32px;
+}
+.email {
+  font-size: 32px;
+  margin: 34px 0;
+}
+.friend-number {
+  font-size: 32px;
+}

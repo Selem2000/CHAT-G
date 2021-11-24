@@ -1,0 +1,7 @@
+.pro-sidebar {
+  height: 92.5vh !important;
+  top: 56px !important;
+  position: absolute !important;
+  z-index: 9 !important;
+  position: fixed !important;
+}

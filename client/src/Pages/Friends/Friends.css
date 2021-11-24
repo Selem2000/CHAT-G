@@ -1,0 +1,6 @@
+.Friend-list {
+  margin: 80px 0px 0px 270px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "finle project to GoMyCode",
+  "main": "server.js",
+  "scripts": {
+    "back": "nodemon server",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "Selem",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.3.0",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.1.0",
+    "@mui/material": "^5.0.4",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "react-pro-sidebar": "^0.7.1"
+  }
+}
